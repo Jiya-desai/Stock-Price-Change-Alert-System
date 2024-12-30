@@ -13,7 +13,7 @@ This simple web application built using React with a Flask backend allows users 
 ## Setup:
 
 1. Clone the repository
-2. 2. Backend dependencies: Install the requirements using pip install -r requirements.txt in the terminal (in the main project directory)
+2. Backend dependencies: Install the requirements using pip install -r requirements.txt in the terminal (in the main project directory)
 3. Run the backend with python app.py
 4. Frontend dependencies: Install the requirements running npm install in the stock-alert-frontend sub-folder
 5. Start the web application using npm start
