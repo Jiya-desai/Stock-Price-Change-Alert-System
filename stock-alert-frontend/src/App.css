@@ -1,0 +1,112 @@
+/* App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f7f6;
+  color: #333;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.app-header {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #4CAF50;
+}
+
+.form-container {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.set-alert-button {
+  margin-top: 1rem;
+}
+
+.message {
+  font-size: 1rem;
+  color: #d9534f;
+  text-align: center;
+}
+
+.alert-set {
+  font-size: 1rem;
+  color: #5bc0de;
+  text-align: center;
+}
+
+.alerts-header {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.alerts-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.alert-item {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.no-alerts {
+  text-align: center;
+  color: #999;
+}
